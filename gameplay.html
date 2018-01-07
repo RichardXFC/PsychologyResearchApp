@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="img/icon.png" rel="icon" type="image/png">
+  <title>Psychology Research App</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/gameplay.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js">
+  </script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <a class="navbar-brand" href="https://richardxfc.github.io/PsychologyResearchApp/"><img alt="" class="d-inline-block align-top" height="30" src="img/icon.png" width="30"> Psychology Research App</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="gameplay.html">Gameplay<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">More</a>
+          <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+            <a class="dropdown-item" href="about.html">About Psychology Research App</a>
+          </div>
+        </li>
+      </ul><span class="navbar-text"><i>Project by <a href="https://richardxfc.github.io/" style="text-decoration: none"><p class="text-secondary d-inline">RichardXFC <i aria-hidden="true" class="fa fa-github"></i></p></a> & <a href="https://www.eng.uwaterloo.ca/~z5mohamm/" style="text-decoration: none"><p class="text-secondary d-inline">Zahin Mohammad</p></i></a></span>
+    </div>
+  </nav>
+  <div class="container-fluid gameplay">
+    <div class="row">
+      <div class="col-lg-6"><img alt="..." class="float-left" src="img/gameplay/app1.png"></div>
+      <div class="col-lg-6 align-self-center">
+        <div class="jumbotron">
+          <div class="content">
+            <h1 class="display-4">Start Screen</h1><br>
+            <p class="lead">The app starts with the Start Screen, a screen where the researcher inputs the participant name and gender, and selects the game condition (win, lose, and tie).</p>
+			<p class="lead">These values get tracked and saved throughout the whole experiment for every participant.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6"><img alt="..." class="float-left" src="img/gameplay/app2.png"></div>
+      <div class="col-lg-6 align-self-center">
+        <div class="jumbotron">
+          <div class="content">
+            <h1 class="display-4">Practice Screen</h1><br>
+            <p class="lead">Next is the Practice Screen, where the participant learns the gist of what they have to do; click a randomly chosen target object (for the Practice Screen, this will be sea creatures).</p>
+            <p class="lead">The Practice Screen only appears once.</p>
+			</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6"><img alt="..." class="float-left" src="img/gameplay/app3.png"></div>
+      <div class="col-lg-6 align-self-center">
+        <div class="jumbotron">
+          <div class="content">
+            <h1 class="display-4">Pre-Game Screen</h1><br>
+            <p class="lead">Once the participant clicks all the Practice Screen sea creatures, or the researcher decides to move on, we get to the Pre-Game Screen.</p>
+			<p class="lead">A randomly chosen target object is chosen. This target object is what the participant has to tap in the Game Screen.</p>
+			<p class="lead">Once they are ready, the game starts after clicking the "Start Game" button.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6"><img alt="..." class="float-left" src="img/gameplay/app4.png"></div>
+      <div class="col-lg-6 align-self-center">
+        <div class="jumbotron">
+          <div class="content">
+            <h1 class="display-4">Game Screen</h1><br>
+            <p class="lead">The game consists of a grid of different objects, split between target and distractor objects randomly distributed on the grid. There is a fixed ratio between the target and distractor objects.</p>
+            <p class="lead">The participant has to tap the target objects (which were chosen in the Pre-Game Screen). The "other player" (AI) will "tap" in accordance to the game condition.</p>
+            <p class="lead">After a fixed amount of time, the screen transitions to the Bar Graph Screen.</p>
+			</div>
+        </div>
+      </div>
+    </div>
+	<div class="row">
+      <div class="col-lg-6"><img alt="..." class="float-left" src="img/gameplay/app5.png"></div>
+      <div class="col-lg-6 align-self-center">
+        <div class="jumbotron">
+          <div class="content">
+            <h1 class="display-4">Bar Graph Screen</h1><br>
+            <p class="lead">The Bar Graph Screen will show a bar graph of their performance against the "other player" (AI).</p>
+			<p class="lead">The researcher will the click "Continue..." to move onto the next screen.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6"><img alt="..." class="float-left" src="img/gameplay/app6.png"></div>
+      <div class="col-lg-6 align-self-center">
+        <div class="jumbotron">
+          <div class="content">
+            <h1 class="display-4">Message Screen</h1><br>
+            <p class="lead">Next, the participant will "send" a voice message to the "other player".</p>
+			<p class="lead">This voice message is saved for research use.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+	<div class="row">
+      <div class="col-lg-6"><img alt="..." class="float-left" src="img/gameplay/repeat.png"></div>
+      <div class="col-lg-6 align-self-center">
+        <div class="jumbotron">
+          <div class="content">
+            <h1 class="display-4">Repeat</h1><br>
+            <p class="lead">This process repeats 3 times (each time is called a trial) per game condition, for a total of 9 trials.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6"><img alt="..." class="float-left" src="img/gameplay/app7.png"></div>
+      <div class="col-lg-6 align-self-center">
+        <div class="jumbotron">
+          <div class="content">
+            <h1 class="display-4">End Screen</h1><br>
+            <p class="lead">At the very end, the participant will see messages from the "other players" they faced.</p>
+			<p class="lead">The data that was recorded (not the voice messages, as those have already been saved) is saved in text and CSV format for research use.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
