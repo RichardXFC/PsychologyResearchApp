@@ -47,3 +47,7 @@ body {
 .gameplay .jumbotron {
   background-color: transparent !important;
 }
+
+.development .jumbotron {
+  background-color: transparent !important;
+}
